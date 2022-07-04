@@ -1,7 +1,7 @@
 /* imports */
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 
-*{
+* {
     font-family: 'Space Grotesk', sans-serif;
 }
 
@@ -10,6 +10,7 @@
 #logo h1 {
     font-family: 'Oleo Script', 'cursive';
 }
+
 .navbar {
     margin: 10px 100px;
     display: flex;
@@ -24,8 +25,32 @@
 
 #links ul li a {
     text-decoration: none;
-    padding: 0px 30px;  
+    padding: 0px 30px;
 }
+
+#hero {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+
+.text,
+.image {
+    flex: 50%;
+
+}
+
+.image {
+    background-image: url("../images/image\ 1.png");
+
+}
+h2{
+    color: blue;
+}
+
+
 
 
 
