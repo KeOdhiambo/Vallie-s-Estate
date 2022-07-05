@@ -1,7 +1,9 @@
 /* imports */
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Space+Grotesk&display=swap');
 
 * {
+    /* font-family: 'Oleo Script', 'cursive'; */
     font-family: 'Space Grotesk', sans-serif;
 }
 
@@ -28,13 +30,74 @@
     padding: 0px 30px;
 }
 
+
+
+/* hero */
 #hero {
     display: flex;
+    flex-direction: row;
     height: 100vh;
     width: 100vw;
 
+}
+
+.hero-flex {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 100px;
+    gap: 300px;
 
 }
+
+.hero-flex h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#img1    {
+    width: 16%;
+    height: 16%;
+}
+
+#img2    {
+    width: 60%;
+    height: 50%;
+}
+
+.hero2 {
+    display: flex;
+    gap: 80px;
+
+}
+
+#hero-btn {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2549D3;
+    color: #fafafa ;
+    font-size: large;
+    cursor: pointer;
+
+
+}
+#Started {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2549D3;
+    color: #fafafa ;
+    font-size: large;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
 
 .text,
 .image {
