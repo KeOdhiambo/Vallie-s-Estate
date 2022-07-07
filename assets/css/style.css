@@ -7,6 +7,9 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
+body {
+    background-color: #FAFAFA;
+}
 
 /* navbar */
 #logo h1 {
@@ -71,7 +74,7 @@
 }
 
 #hero-btn {
-    padding: 20px 40px;
+    padding: 10px 20px;
     border: none;
     border-radius: 8px;
     background-color: #2549D3;
@@ -81,7 +84,7 @@
 
 
 }
-#Started {
+#started {
     padding: 20px 40px;
     border: none;
     border-radius: 8px;
@@ -94,12 +97,32 @@
 
 
 
+/* products-section */
+.flex-products {
+    padding: 50px 100px;
+}
+
+.products-cards { textdisplay: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2.4rem;
+}
+
+#cards {
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #ffff;
+}
 
 
 
 
 
-.text,
+
+
+
+
+/* .text,
 .image {
     flex: 50%;
 
@@ -111,15 +134,7 @@
 }
 h2{
     color: blue;
-}
-
-
-
-
-
-
-
-
+} */
 
 
 
