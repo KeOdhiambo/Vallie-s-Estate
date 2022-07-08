@@ -114,9 +114,51 @@ body {
     background-color: #ffff;
 }
 
+/* Why section*/
+.Why-flex{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+}
+#img3{
+    width: 60%;
+    height: 60%;
+}
+.Why choose us h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: blue;
+}
 
 
 
+
+
+
+/* Our properties*/
+.Featured-properties-flex h1{
+    text-align: center;
+    color: blue;
+}
+p{
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: larger;
+}
+
+
+
+/* Customers*/
+.Our-customers h1{
+    text-align: center;
+    color: #2549D3;
+}
+p{
+  font-size: larger;  
+}
+h2{
+    text display: flex: ;
+}
 
 
 
