@@ -7,6 +7,7 @@
     font-family: 'Space Grotesk', sans-serif;
 }
 
+
 body {
     background-color: #FAFAFA;
 }
@@ -102,7 +103,8 @@ body {
     padding: 50px 100px;
 }
 
-.products-cards { textdisplay: flex;
+.products-cards { 
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 2.4rem;
@@ -136,59 +138,88 @@ body {
 
 
 /* Our properties*/
-.Featured-properties-flex h1{
-    text-align: center;
-    color: blue;
+.our-properties {
+    padding: 6% 8%;
 }
-p{
+
+.our-properties h1 {
+    color: #2549D3;
     text-align: center;
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: larger;
 }
+
+.our-properties #details {
+    text-align: center;
+}
+
+.flex-properties {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    padding:5% 0%;
+}
+
+.flex-properties img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#property-card {
+    background-color: white;
+    border-radius: 0px 100px 0px 100px;
+}
+
+#card3 {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
 
 
 
 /* Customers*/
-.Our-customers h1{
+.our-customers {
+    padding: 6% 8%;
+}
+
+.our-customers h1 {
     text-align: center;
     color: #2549D3;
 }
-p{
-  font-size: larger;  
-}
-h2{
-    text display: flex: ;
-}
 
-
-
-
-
-/* .text,
-.image {
-    flex: 50%;
-
+.our-customers h3 {
+    text-align: center;
+    
 }
 
-.image {
-    background-image: url("../images/image\ 1.png");
-
+.customer-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-h2{
-    color: blue;
-} */
 
-
-
-
-
-/* h1{
-    font-size: medium;
-    color: blue;
+#card2 {
+    background-color: white;
+    padding: 1.6% 4.4%;
+    border-radius: 20px;
 }
-ul{
-    list-style: type:none;
-}
-li{
-    color: blue;
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
